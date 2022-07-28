@@ -1,0 +1,39 @@
+.titleName {
+    margin-left: 10px;
+}
+.profPic {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 220px;
+    width: 150px;
+    object-fit: cover;
+    user-select: none;
+}
+
+.hoverPic {
+    display: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 220px;
+    width: 150px;
+    object-fit: cover;
+    user-select: none;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 220px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.container:hover .profPic {
+    display: none;
+}
+
+.container:hover .hoverPic {
+    display: block;
+}
