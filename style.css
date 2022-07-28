@@ -1,5 +1,6 @@
 .titleName {
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 .profPic {
     display: block;
@@ -9,6 +10,13 @@
     width: 150px;
     object-fit: cover;
     user-select: none;
+}
+.github {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(72, 41, 85);
 }
 
 .hoverPic {
