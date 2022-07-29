@@ -4,8 +4,6 @@ body {
 }
 
 hr {
-    /* background-color: #94B49F; */
-    background-color: #F1F1F1;
     border: 5px #E2DCC8;
     border-style: dotted none none;
     width: 10%;
